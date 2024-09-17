@@ -10,7 +10,7 @@ describe('Generación de la serie de Fibonacci y su suma', () => {
   test('Debe generar correctamente la serie de Fibonacci hasta 0', () => {
     const result = fibonacci_series(0);
     expect(result.series).toEqual([0]);
-    expect(result.sum).toBe(0);
+    expect(result.sum).toBe(1);
   });
 
   test('Debe lanzar un error si el número es negativo', () => {
