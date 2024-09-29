@@ -3,6 +3,7 @@ exports.calculate_variance= (numbers) => {
     throw new Error('Debe proporcionar un conjunto de números');
   }
 
+
   const mean = numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
 
   const squared_diffs = numbers.map(num => Math.pow(num - mean, 2));
