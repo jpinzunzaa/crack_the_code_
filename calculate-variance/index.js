@@ -7,6 +7,6 @@ exports.calculate_variance= (numbers) => {
 
   const squared_diffs = numbers.map(num => Math.pow(num - mean, 2));
   const variance = squared_diffs.reduce((sum, diff) => sum + diff, 0) / numbers.length;
-
+ 
   return variance;
 }
