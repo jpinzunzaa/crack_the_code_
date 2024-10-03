@@ -11,7 +11,7 @@ exports.count_patterns = (V, P) => {
       if (V[i + j] !== P[j]) {
         match = false;
         break;
-      } 
+      }
     }
     if (match) {
       count++;
