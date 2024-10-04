@@ -12,7 +12,7 @@ describe('Cálculo de la transpuesta de una matriz cuadrada', () => {
       [2, 5, 8],
       [3, 6, 9]
     ];
-    expect(transposeMatrix(B)).toEqual(transposed);
+    expect(transpose_matrix(B)).toEqual(transposed);
   });
 
   test('Debe calcular correctamente la transpuesta de una matriz 2x2', () => {
@@ -24,7 +24,7 @@ describe('Cálculo de la transpuesta de una matriz cuadrada', () => {
       [1, 3],
       [2, 4]
     ];
-    expect(transposeMatrix(B)).toEqual(transposed);
+    expect(transpose_matrix(B)).toEqual(transposed);
   });
 
   test('Debe lanzar un error si no es una matriz cuadrada', () => {
@@ -32,6 +32,6 @@ describe('Cálculo de la transpuesta de una matriz cuadrada', () => {
       [1, 2],
       [3]
     ];
-    expect(() => transposeMatrix(B)).toThrow('Ingrese una matriz cuadrada válida de tamaño n * n.');
+    expect(() => transpose_matrix(B)).toThrow('Ingrese una matriz cuadrada válida de tamaño n * n.');
   });
 });
