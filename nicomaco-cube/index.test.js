@@ -2,15 +2,15 @@ const { nicomaco_cube } = require('./index');
 
 describe('Cálculo de los cubos de Nicómaco de Gerasa', () => {
   test('Debe devolver el cubo de 1 con los números impares', () => {
-    expect(nicomaco_cube(1)).toEqual({ sum: 1, oddNumbers: [1] });
+    expect(nicomaco_cube(1)).toEqual({ sum: 1, odd_numbers: [1] });
   });
 
   test('Debe devolver el cubo de 2 con los números impares', () => {
-    expect(nicomaco_cube(2)).toEqual({ sum: 8, oddNumbers: [3, 5] });
+    expect(nicomaco_cube(2)).toEqual({ sum: 8, odd_numbers: [3, 5] });
   });
 
   test('Debe devolver el cubo de 3 con los números impares', () => {
-    expect(nicomaco_cube(3)).toEqual({ sum: 27, oddNumbers: [7, 9, 11] });
+    expect(nicomaco_cube(3)).toEqual({ sum: 27, odd_numbers: [7, 9, 11] });
   });
 
   test('Debe lanzar un error para entradas no válidas', () => {

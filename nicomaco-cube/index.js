@@ -13,6 +13,6 @@ exports.nicomaco_cube = (n) => {
 
   return {
     sum: result.reduce((acc, curr) => acc + curr, 0),
-    oddNumbers: result
-  };
+    odd_numbers: result
+  }
 }

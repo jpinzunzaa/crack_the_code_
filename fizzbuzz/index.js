@@ -12,7 +12,7 @@ exports.fizz_buzz_simple = (n) => {
     }
   }
   return result;
-};
+}
 
 exports.fizz_buzz_no_modulus = (n) => {
   const result = [];
