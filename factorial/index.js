@@ -9,5 +9,4 @@ exports.factorial = (n) => {
   }
 
   return res;
-
 }
