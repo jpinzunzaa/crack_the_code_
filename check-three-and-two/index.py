@@ -1,4 +1,4 @@
-def check_array(arr):
+def check_three_and_two(arr):
     counts = {}
     for char in arr:
         counts[char] = counts.get(char, 0) + 1
